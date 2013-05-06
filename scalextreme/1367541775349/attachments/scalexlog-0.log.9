@@ -1,0 +1,89 @@
+INFO:May 3, 2013 9:19:50 AM [main] java.util.logging.LogManager$RootLogger.log === No WebContextLogManager available === 
+INFO:May 3, 2013 9:19:50 AM [main] com.centro.web.ScalexContextInitializer.contextInitialized Initializing configuration......start 
+INFO:May 3, 2013 9:19:50 AM [main] com.centro.server.EnvConfig.initializeConfig Setting properties.......start 
+INFO:May 3, 2013 9:19:50 AM [main] com.centro.server.EnvConfig.getBundle Reading configuration file ... config.properties 
+INFO:May 3, 2013 9:19:50 AM [main] com.centro.server.EnvConfig.getBundle Reading configuration file ... done 
+INFO:May 3, 2013 9:19:50 AM [main] com.centro.server.EnvConfig.verifyAndSetExternalIp alwaysSendExternalIp = false, eip=10.1.10.220 
+INFO:May 3, 2013 9:19:50 AM [main] com.centro.server.EnvConfig.verifyAndSetExternalIp External IP is :not set 
+INFO:May 3, 2013 9:19:50 AM [main] com.centro.server.EnvConfig.setInternalIp Intenral IP is :not set 
+SEVERE:May 3, 2013 9:19:50 AM [main] com.centro.server.EnvConfig.initializeConfig null 
+INFO:May 3, 2013 9:19:50 AM [main] com.centro.server.EnvConfig.initializeConfig Script dir /C:/dev/scalex/centro/external/dist/jetty/jetty-hightide-8.1.0.RC2/webapps/scalex/WEB-INF/classes/scripts 
+INFO:May 3, 2013 9:19:50 AM [main] com.centro.server.EnvConfig.initializeConfig Setting properties.......done 
+INFO:May 3, 2013 9:19:50 AM [main] com.centro.web.ScalexContextInitializer.contextInitialized Parsing centserv configuration .....start 
+INFO:May 3, 2013 9:19:50 AM [main] com.centro.util.SConfig.getSConfig will parse ini file:/C:/dev/scalex/centro/external/dist/jetty/jetty-hightide-8.1.0.RC2/webapps/scalex/WEB-INF/classes/centserv.ini 
+INFO:May 3, 2013 9:19:50 AM [main] com.centro.util.SConfig.getSConfig SAdmin.compval[5][0] = notify 
+INFO:May 3, 2013 9:19:50 AM [main] com.centro.web.ScalexContextInitializer.contextInitialized Parsing centserv configuration .....end 
+INFO:May 3, 2013 9:19:50 AM [main] com.centro.web.ScalexContextInitializer.contextInitialized This server is not behind load balancer 
+INFO:May 3, 2013 9:19:50 AM [main] com.centro.web.ScalexContextInitializer.contextInitialized Initializing configuration......end 
+INFO:May 3, 2013 9:19:52 AM [main] com.centro.service.discovery.NIODiscoveryServerServiceImpl.init Initializing discovery server connection ... start 
+INFO:May 3, 2013 9:19:52 AM [main] com.centro.service.discovery.NIODiscoveryServerServiceImpl.init Connecting to [discovery-dev.scalextreme.com:443] 
+INFO:May 3, 2013 9:19:52 AM [main] com.centro.service.discovery.NIODiscoveryServerServiceImpl.handleUpstream [id: 0x76e86c03] OPEN 
+INFO:May 3, 2013 9:19:53 AM [main] com.centro.service.discovery.NIODiscoveryServerServiceImpl.init Registering appserver [appserverId=108] ... start 
+INFO:May 3, 2013 9:19:53 AM [New I/O client worker #1-1] com.centro.service.discovery.NIODiscoveryServerServiceImpl.handleUpstream [id: 0x76e86c03, /10.1.10.46:52246 => discovery-dev.scalextreme.com/50.56.68.189:443] BOUND: /10.1.10.46:52246 
+INFO:May 3, 2013 9:19:53 AM [New I/O client worker #1-1] com.centro.service.discovery.NIODiscoveryServerServiceImpl.handleUpstream [id: 0x76e86c03, /10.1.10.46:52246 => discovery-dev.scalextreme.com/50.56.68.189:443] CONNECTED: discovery-dev.scalextreme.com/50.56.68.189:443 
+INFO:May 3, 2013 9:19:53 AM [New I/O client worker #1-1] com.centro.service.discovery.DefaultDiscoveryServerCallback.handleCall RequestId within callback:104451333 
+INFO:May 3, 2013 9:19:53 AM [main] com.centro.proto.DProto.printit <- DProto: OP:DS_REC_APPSERVER_REGISTRATION_OK MSGID:104451333 Ver:3
+	
+ 
+INFO:May 3, 2013 9:19:53 AM [main] com.centro.proto.DProto.printit <- DProto: OP:DS_REC_APPSERVER_REGISTRATION_OK MSGID:104451333 Ver:3
+	
+ 
+INFO:May 3, 2013 9:19:53 AM [main] com.centro.service.discovery.NIODiscoveryServerServiceImpl.init Registering appserver [appserverId=108] ... end 
+INFO:May 3, 2013 9:19:53 AM [main] com.centro.service.discovery.NIODiscoveryServerServiceImpl.handleUpstream [id: 0x79a7bd3b] OPEN 
+INFO:May 3, 2013 9:19:54 AM [main] com.centro.service.discovery.NIODiscoveryServerServiceImpl.init Registering appserver [appserverId=109] ... start 
+INFO:May 3, 2013 9:19:54 AM [New I/O client worker #1-2] com.centro.service.discovery.NIODiscoveryServerServiceImpl.handleUpstream [id: 0x79a7bd3b, /10.1.10.46:52251 => discovery-dev.scalextreme.com/50.56.68.189:443] BOUND: /10.1.10.46:52251 
+INFO:May 3, 2013 9:19:54 AM [New I/O client worker #1-2] com.centro.service.discovery.NIODiscoveryServerServiceImpl.handleUpstream [id: 0x79a7bd3b, /10.1.10.46:52251 => discovery-dev.scalextreme.com/50.56.68.189:443] CONNECTED: discovery-dev.scalextreme.com/50.56.68.189:443 
+INFO:May 3, 2013 9:19:54 AM [New I/O client worker #1-2] com.centro.service.discovery.DefaultDiscoveryServerCallback.handleCall RequestId within callback:908256845 
+INFO:May 3, 2013 9:19:54 AM [main] com.centro.proto.DProto.printit <- DProto: OP:DS_REC_APPSERVER_REGISTRATION_OK MSGID:908256845 Ver:3
+	
+ 
+INFO:May 3, 2013 9:19:54 AM [main] com.centro.proto.DProto.printit <- DProto: OP:DS_REC_APPSERVER_REGISTRATION_OK MSGID:908256845 Ver:3
+	
+ 
+INFO:May 3, 2013 9:19:54 AM [main] com.centro.service.discovery.NIODiscoveryServerServiceImpl.init Registering appserver [appserverId=109] ... end 
+INFO:May 3, 2013 9:19:54 AM [main] com.centro.service.discovery.NIODiscoveryServerServiceImpl.init Initializing discovery server connection ... end 
+INFO:May 3, 2013 9:19:55 AM [main] com.centro.service.reports.ReportServiceImpl.init BIRT reportEngine initialized successfully 
+INFO:May 3, 2013 9:19:55 AM [main] com.centro.service.reports.ReportServiceImpl.init BIRT designEngine initialized successfully 
+INFO:May 3, 2013 9:19:56 AM [main] com.centro.service.Wip1.init Starting wip1.........start 
+INFO:May 3, 2013 9:19:56 AM [main] com.centro.service.Wip1.init Starting wip1.........done 
+INFO:May 3, 2013 9:19:56 AM [main] com.centro.service.Wip2.init Starting wip2.........start 
+INFO:May 3, 2013 9:19:56 AM [main] com.centro.service.Wip2.init Starting wip2.........done 
+INFO:May 3, 2013 9:19:56 AM [main] com.centro.sched.SyncScheduler.init Starting scheduler ...... 
+INFO:May 3, 2013 9:19:56 AM [SchedWatcher] com.centro.sched.SyncScheduler$SyncHandlerWatch.run not enough workers!:0:now:1 
+INFO:May 3, 2013 9:19:56 AM [main] com.centro.sched.SyncScheduler.start SyncScheduler started. 
+INFO:May 3, 2013 9:19:56 AM [main] com.centro.sched.SyncScheduler.init Starting scheduler ......done 
+INFO:May 3, 2013 9:19:56 AM [SchedWatcher] com.centro.sched.SyncScheduler$SyncHandlerWatch.run not enough workers!:0:now:2 
+INFO:May 3, 2013 9:19:56 AM [CancellationWatcher] com.centro.sched.SyncScheduler$JobCancellationHandlerWatch.run not enough workers!:0:now:1 
+INFO:May 3, 2013 9:19:56 AM [SyncSched] com.centro.sched.DBStorage.acquireNextTriggers pick jobs between [start:2013-05-03 09:19:56.337, end:2013-05-03 09:20:01.328] 
+INFO:May 3, 2013 9:19:56 AM [OnDemandWorkerPool-1] com.centro.sched.SyncScheduler.catchupBacklogSchedulesFromRestart Backlog schedules size :0 
+INFO:May 3, 2013 9:19:56 AM [BgSchedWorkers-3] com.centro.service.discovery.NIODiscoveryServerServiceImpl.dpping Discovery server ping message sent [channel=0, pingseq=1] 
+INFO:May 3, 2013 9:19:56 AM [New I/O client worker #1-1] com.centro.service.discovery.DefaultDiscoveryServerCallback.handleCall RequestId within callback:0 
+INFO:May 3, 2013 9:19:56 AM [BgSchedWorkers-3] com.centro.proto.DProto.printit <- DProto: OP:DS_REC_PONG
+	 Seq:1
+ 
+INFO:May 3, 2013 9:19:56 AM [BgSchedWorkers-3] com.centro.service.discovery.NIODiscoveryServerServiceImpl.dpping Discovery server pong message received [channel=0,pingseq=1] 
+INFO:May 3, 2013 9:19:56 AM [BgSchedWorkers-3] com.centro.service.discovery.NIODiscoveryServerServiceImpl.dpping Discovery server ping message sent [channel=1, pingseq=2] 
+INFO:May 3, 2013 9:19:56 AM [New I/O client worker #1-2] com.centro.service.discovery.DefaultDiscoveryServerCallback.handleCall RequestId within callback:0 
+INFO:May 3, 2013 9:19:56 AM [BgSchedWorkers-3] com.centro.proto.DProto.printit <- DProto: OP:DS_REC_PONG
+	 Seq:2
+ 
+INFO:May 3, 2013 9:19:56 AM [BgSchedWorkers-3] com.centro.service.discovery.NIODiscoveryServerServiceImpl.dpping Discovery server pong message received [channel=1,pingseq=2] 
+INFO:May 3, 2013 9:19:57 AM [main] com.centro.web.filter.SecurityFilter.init Initializing security filter ... start 
+INFO:May 3, 2013 9:19:57 AM [main] com.centro.web.filter.SecurityFilter.init Initializing security filter ... end 
+INFO:May 3, 2013 9:19:57 AM [SchedWatcher] com.centro.sched.SyncScheduler$SyncHandlerWatch.run over max waiters criteria!:2:1057 
+WARNING:May 3, 2013 9:19:57 AM [SchedWatcher] com.centro.server.Queue.terminateOne Queue trying to terminate:Thread[SchedExecutor-1,5,main] 
+WARNING:May 3, 2013 9:19:57 AM [SchedExecutor-1] com.centro.server.Queue.dQ Thread interrupted...Thread[SchedExecutor-1,5,main] 
+WARNING:May 3, 2013 9:19:57 AM [SchedExecutor-1] com.centro.sched.SyncScheduler$SyncHandler.run Interrupted wait. Going down...Thread[SchedExecutor-1,5,main] 
+INFO:May 3, 2013 9:19:57 AM [main] com.centro.service.controller.LegacyAppServerController.init Initializing LegacyAppServerController......start 
+INFO:May 3, 2013 9:19:57 AM [main] com.centro.service.controller.LegacyAppServerController.init Initializing LegacyAppServerController......end 
+INFO:May 3, 2013 9:20:01 AM [SyncSched] com.centro.sched.DBStorage.acquireNextTriggers pick jobs between [start:2013-05-03 09:20:01.329, end:2013-05-03 09:20:06.329] 
+INFO:May 3, 2013 9:20:06 AM [SyncSched] com.centro.sched.DBStorage.acquireNextTriggers pick jobs between [start:2013-05-03 09:20:06.329, end:2013-05-03 09:20:11.329] 
+INFO:May 3, 2013 9:20:11 AM [SyncSched] com.centro.sched.DBStorage.acquireNextTriggers pick jobs between [start:2013-05-03 09:20:11.329, end:2013-05-03 09:20:16.329] 
+INFO:May 3, 2013 9:20:16 AM [SyncSched] com.centro.sched.DBStorage.acquireNextTriggers pick jobs between [start:2013-05-03 09:20:16.330, end:2013-05-03 09:20:21.330] 
+INFO:May 3, 2013 9:20:21 AM [SyncSched] com.centro.sched.DBStorage.acquireNextTriggers pick jobs between [start:2013-05-03 09:20:21.330, end:2013-05-03 09:20:26.330] 
+INFO:May 3, 2013 9:20:26 AM [SyncSched] com.centro.sched.DBStorage.acquireNextTriggers pick jobs between [start:2013-05-03 09:20:26.331, end:2013-05-03 09:20:31.331] 
+INFO:May 3, 2013 9:20:31 AM [SyncSched] com.centro.sched.DBStorage.acquireNextTriggers pick jobs between [start:2013-05-03 09:20:31.331, end:2013-05-03 09:20:36.331] 
+INFO:May 3, 2013 9:20:36 AM [SyncSched] com.centro.sched.DBStorage.acquireNextTriggers pick jobs between [start:2013-05-03 09:20:36.332, end:2013-05-03 09:20:41.332] 
+INFO:May 3, 2013 9:20:41 AM [SyncSched] com.centro.sched.DBStorage.acquireNextTriggers pick jobs between [start:2013-05-03 09:20:41.332, end:2013-05-03 09:20:46.332] 
+INFO:May 3, 2013 9:20:46 AM [SyncSched] com.centro.sched.DBStorage.acquireNextTriggers pick jobs between [start:2013-05-03 09:20:46.332, end:2013-05-03 09:20:51.332] 
+INFO:May 3, 2013 9:20:51 AM [SyncSched] com.centro.sched.DBStorage.acquireNextTriggers pick jobs between [start:2013-05-03 09:20:51.333, end:2013-05-03 09:20:56.333] 
